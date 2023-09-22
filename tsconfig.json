@@ -12,13 +12,10 @@
     "baseUrl": "./",
     "incremental": true,
     "skipLibCheck": true,
+    "resolveJsonModule": true,
     "paths": {
-      "@app/motorola": [
-        "libs/motorola/src"
-      ],
-      "@app/motorola/*": [
-        "libs/motorola/src/*"
-      ]
+      "@app/motorola": ["libs/motorola/src"],
+      "@app/motorola/*": ["libs/motorola/src/*"]
     }
   }
 }

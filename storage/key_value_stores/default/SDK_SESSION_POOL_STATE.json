@@ -1,0 +1,63 @@
+{
+  "usableSessionsCount": 1,
+  "retiredSessionsCount": 0,
+  "sessions": [
+    {
+      "id": "session_mJP0Bx4am6",
+      "cookieJar": {
+        "version": "tough-cookie@4.1.3",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "az_botm",
+            "value": "8e97fe97e6d3a471cfddc53499b7eb4b",
+            "maxAge": 86400,
+            "domain": "www.motorola.com.br",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": false,
+            "creation": "2023-09-22T18:15:38.848Z",
+            "lastAccessed": "2023-09-22T18:15:38.848Z"
+          },
+          {
+            "key": "az_asm",
+            "value": "8819788515596AE33AE0039FE4B41B5206A755708194BF827B900CBE302BE8FB8587152357C08D9E16FCBF0E72C569CBB4E15A563F7AA54D57792A23C263FEDD",
+            "maxAge": 86400,
+            "domain": "www.motorola.com.br",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": false,
+            "creation": "2023-09-22T18:15:38.849Z",
+            "lastAccessed": "2023-09-22T18:15:38.849Z"
+          },
+          {
+            "key": "VtexWorkspace",
+            "value": "master%3A-",
+            "expires": "2023-09-23T18:12:02.000Z",
+            "domain": "www.motorola.com.br",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2023-09-22T18:15:38.849Z",
+            "lastAccessed": "2023-09-22T18:15:38.849Z",
+            "sameSite": "none"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2023-09-22T19:05:36.228Z",
+      "createdAt": "2023-09-22T18:15:36.228Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    }
+  ]
+}
