@@ -14,8 +14,24 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "paths": {
-      "@app/motorola": ["libs/motorola/src"],
-      "@app/motorola/*": ["libs/motorola/src/*"]
+      "@app/motorola": [
+        "libs/motorola/src"
+      ],
+      "@app/motorola/*": [
+        "libs/motorola/src/*"
+      ],
+      "@app/xiaomi": [
+        "libs/xiaomi/src"
+      ],
+      "@app/xiaomi/*": [
+        "libs/xiaomi/src/*"
+      ],
+      "@app/samsung": [
+        "libs/samsung/src"
+      ],
+      "@app/samsung/*": [
+        "libs/samsung/src/*"
+      ]
     }
   }
 }

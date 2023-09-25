@@ -15,6 +15,24 @@
       "compilerOptions": {
         "tsConfigPath": "libs/motorola/tsconfig.lib.json"
       }
+    },
+    "xiaomi": {
+      "type": "library",
+      "root": "libs/xiaomi",
+      "entryFile": "index",
+      "sourceRoot": "libs/xiaomi/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/xiaomi/tsconfig.lib.json"
+      }
+    },
+    "samsung": {
+      "type": "library",
+      "root": "libs/samsung",
+      "entryFile": "index",
+      "sourceRoot": "libs/samsung/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/samsung/tsconfig.lib.json"
+      }
     }
   }
 }

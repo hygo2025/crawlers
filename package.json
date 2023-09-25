@@ -76,7 +76,9 @@
       "<rootDir>/libs/"
     ],
     "moduleNameMapper": {
-      "^@app/motorola(|/.*)$": "<rootDir>/libs/motorola/src/$1"
+      "^@app/motorola(|/.*)$": "<rootDir>/libs/motorola/src/$1",
+      "^@app/xiaomi(|/.*)$": "<rootDir>/libs/xiaomi/src/$1",
+      "^@app/samsung(|/.*)$": "<rootDir>/libs/samsung/src/$1"
     }
   }
 }
