@@ -1,13 +1,13 @@
 import { Controller, Get } from '@nestjs/common';
-import { AppService } from './app.service';
+import { MotorolaService } from '@app/motorola';
 
 @Controller()
 export class AppController {
-  constructor(private readonly appService: AppService) {}
+  constructor(private readonly motorolaService: MotorolaService) {}
 
-  @Get()
-  async getHello(): Promise<object> {
-    const a = await this.appService.getHello();
-    return a;
+  @Get('/motorola')
+  async getAll(): Promise<object> {
+    const result = await this.motorolaService.getAllSpecs();
+    return result;
   }
 }

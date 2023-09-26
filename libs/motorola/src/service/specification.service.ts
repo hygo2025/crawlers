@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { andThen, compose, flatten, head, map, prop } from 'ramda';
+import { compose, flatten, head, map, prop } from 'ramda';
 import { CrawlerService } from './crawler.service';
 
 interface ISpec {
@@ -7,15 +7,14 @@ interface ISpec {
   originalName: string;
   value: object;
 }
-@Injectable()
-export class MotorolaService {
-  constructor(private readonly crawlerService: CrawlerService) {}
 
-  async getSpecs(url = 'https://www.motorola.com.br/smartphone-moto-g73-5g/p') {
-    return compose(
-      andThen((specs: object) => this.getSpecifications(specs)),
-      (url: string) => this.crawlerService.run(url),
-    )(url);
+@Injectable()
+export class SpecificationService {
+  constructor(private readonly crawlerService: CrawlerService) { }
+
+  async getSpecsByUrl(url: string) {
+    const specs = await this.crawlerService.run(url);
+    return this.getSpecifications(specs);
   }
 
   private getSpecifications(specs: object): ISpec[] {

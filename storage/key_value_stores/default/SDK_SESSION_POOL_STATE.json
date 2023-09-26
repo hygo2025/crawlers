@@ -3,7 +3,7 @@
   "retiredSessionsCount": 0,
   "sessions": [
     {
-      "id": "session_mJP0Bx4am6",
+      "id": "session_sNebdFyruV",
       "cookieJar": {
         "version": "tough-cookie@4.1.3",
         "storeType": "MemoryCookieStore",
@@ -14,38 +14,38 @@
         "cookies": [
           {
             "key": "az_botm",
-            "value": "8e97fe97e6d3a471cfddc53499b7eb4b",
+            "value": "3cdb0a351e17c653c81c33e103c1ef4c",
             "maxAge": 86400,
             "domain": "www.motorola.com.br",
             "path": "/",
             "secure": true,
             "httpOnly": true,
             "hostOnly": false,
-            "creation": "2023-09-22T18:15:38.848Z",
-            "lastAccessed": "2023-09-22T18:15:38.848Z"
+            "creation": "2023-09-25T14:35:31.467Z",
+            "lastAccessed": "2023-09-25T14:35:31.467Z"
           },
           {
             "key": "az_asm",
-            "value": "8819788515596AE33AE0039FE4B41B5206A755708194BF827B900CBE302BE8FB8587152357C08D9E16FCBF0E72C569CBB4E15A563F7AA54D57792A23C263FEDD",
+            "value": "6905EA197CADF7F611CDFCF34692E9009A1F0035A5BF6FEEF8B2036075FC8097B0F59DE5D4010FCDDF1293A660B6D46FF35A6E26F7FBDD921FAD2668EFB9FC18",
             "maxAge": 86400,
             "domain": "www.motorola.com.br",
             "path": "/",
             "secure": true,
             "httpOnly": true,
             "hostOnly": false,
-            "creation": "2023-09-22T18:15:38.849Z",
-            "lastAccessed": "2023-09-22T18:15:38.849Z"
+            "creation": "2023-09-25T14:35:31.468Z",
+            "lastAccessed": "2023-09-25T14:35:31.468Z"
           },
           {
             "key": "VtexWorkspace",
             "value": "master%3A-",
-            "expires": "2023-09-23T18:12:02.000Z",
+            "expires": "2023-09-26T14:35:27.000Z",
             "domain": "www.motorola.com.br",
             "path": "/",
             "secure": true,
             "hostOnly": true,
-            "creation": "2023-09-22T18:15:38.849Z",
-            "lastAccessed": "2023-09-22T18:15:38.849Z",
+            "creation": "2023-09-25T14:35:31.468Z",
+            "lastAccessed": "2023-09-25T14:35:31.468Z",
             "sameSite": "none"
           }
         ]
@@ -53,8 +53,8 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2023-09-22T19:05:36.228Z",
-      "createdAt": "2023-09-22T18:15:36.228Z",
+      "expiresAt": "2023-09-25T15:25:25.577Z",
+      "createdAt": "2023-09-25T14:35:25.577Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 0
